@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
+  <rect width="100%" height="100%" fill="#f7f8fa"/>
+  <rect x="60" y="60" width="460" height="360" fill="#00a0c8" fill-opacity="0.12" rx="20"/>
+  <circle cx="900" cy="300" r="220" fill="#ff635f" fill-opacity="0.08"/>
+  <text x="80" y="320" font-family="Helvetica, Arial, sans-serif" font-size="56" fill="#0a1930">Things Are Moving Fast</text>
+  <text x="80" y="370" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#0a1930">Generative UI, MCP Apps, and the New Standards Race</text>
+  <rect x="8" y="594" width="140" height="28" fill="white" fill-opacity="0.9" rx="4"/>
+  <text x="16" y="614" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#0a1930">Beto Dias</text>
+</svg>

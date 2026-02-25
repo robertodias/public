@@ -1,0 +1,16 @@
+cover.png: Cover with title and subtitle — light minimal shapes and bold type.
+cover_notitle.png: Cover without text — decorative shapes and brand accents.
+cover.svg: Cover with title and subtitle — light minimal shapes and bold type.
+cover@2x.png: 
+diagram_flow.png: Architecture flow: Model → Generative UI → MCP Host → MCP Apps.
+diagram_flow.svg: Architecture flow: Model → Generative UI → MCP Host → MCP Apps.
+diagram_flow@2x.png: 
+action_list.png: Three-step action list: Generate UI, Compose App, Deploy to Host.
+action_list.svg: Three-step action list: Generate UI, Compose App, Deploy to Host.
+action_list@2x.png: 
+action_agent.png: Split view showing agent-driven orchestration and the MCP host.
+action_agent.svg: Split view showing agent-driven orchestration and the MCP host.
+action_agent@2x.png: 
+action_endstate.png: Business outcomes metrics: Speed, Conversions, Automation.
+action_endstate.svg: Business outcomes metrics: Speed, Conversions, Automation.
+action_endstate@2x.png: 

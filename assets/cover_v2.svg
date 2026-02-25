@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071028"/>
+      <stop offset="1" stop-color="#021020"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feBlend in="SourceGraphic" in2="b" mode="screen"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g1)" />
+
+  <!-- Geometric accents -->
+  <g opacity="0.95">
+    <rect x="40" y="60" width="520" height="520" rx="28" fill="#002033" transform="rotate(-12 300 320)" />
+    <circle cx="980" cy="140" r="120" fill="#002B3A" />
+    <rect x="820" y="380" width="360" height="180" rx="20" fill="#001826" transform="rotate(-10 1000 470)" />
+  </g>
+
+  <!-- Accent shapes --><!-- electric cyan and soft coral accents -->
+  <g opacity="0.95">
+    <rect x="140" y="120" width="360" height="180" rx="18" fill="#00E5FF" opacity="0.08" transform="rotate(-8 320 210)" />
+    <circle cx="940" cy="120" r="54" fill="#00E5FF" opacity="0.12" />
+    <rect x="180" y="420" width="220" height="90" rx="12" fill="#FF7A6C" opacity="0.12" transform="rotate(-8 290 465)" />
+    <path d="M420 80 L540 42 L660 80 L620 140 L500 178 L420 120 Z" fill="#00E5FF" opacity="0.06" />
+  </g>
+
+  <!-- Title block -->
+  <g id="title" transform="translate(80,120)">
+    <text x="0" y="0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="64" fill="#FFFFFF" letter-spacing="-1">Things Are Moving Fast</text>
+    <text x="0" y="72" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="22" fill="#CFEFF6" opacity="0.95">Generative UI, MCP Apps, and the Standards Race</text>
+  </g>
+
+  <!-- small stylized monogram-like element near title -->
+  <g transform="translate(520,80)">
+    <rect x="0" y="0" width="84" height="84" rx="14" fill="#00E5FF" opacity="0.12" />
+    <path d="M18 22 L38 42 L62 18" stroke="#00E5FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- Bottom-left tag -->
+  <g transform="translate(28,594)">
+    <text x="0" y="0" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="16" fill="#FFFFFF" opacity="0.88">Beto Dias</text>
+  </g>
+
+</svg>

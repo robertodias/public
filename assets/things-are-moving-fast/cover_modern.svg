@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0b0f1a" />
+  <g fill="none" stroke="#00E5FF" stroke-width="3">
+    <rect x="60" y="40" width="540" height="420" rx="40"/>
+  </g>
+  <g fill="none" stroke="#FF6B6B" stroke-width="3">
+    <rect x="520" y="90" width="640" height="420" rx="40"/>
+  </g>
+  <text x="80" y="280" fill="#F5F7FA" font-family="Inter, Arial, sans-serif" font-size="48">Things Are Moving Fast</text>
+  <text x="80" y="320" fill="#DCE0E5" font-family="Inter, Arial, sans-serif" font-size="20">Generative UI, MCP Apps, and the New Standards Race</text>
+  <rect x="16" y="590" width="120" height="28" rx="6" fill="rgba(255,255,255,0.08)" />
+  <text x="24" y="610" fill="rgba(255,255,255,0.85)" font-family="Inter, Arial, sans-serif" font-size="16">Beto Dias</text>
+</svg>

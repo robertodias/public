@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      .bg{fill:#f7f7f6}
+      .navy{fill:#0b2545}
+      .cyan{fill:#00d3ff}
+      .coral{fill:#ff6f61}
+      .muted{fill:rgba(11,37,69,0.08)}
+      .tag{fill:rgba(11,37,69,0.6);font-family:Inter, Roboto, Arial, sans-serif;font-size:16px}
+      .title{fill:#0b2545;font-family:Inter, Roboto, Arial, sans-serif;font-weight:700;font-size:40px}
+      .subtitle{fill:#0b2545;opacity:0.85;font-family:Inter, Roboto, Arial, sans-serif;font-size:18px}
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%" rx="16"/>
+  <!-- geometric elements -->
+  <rect x="64" y="64" width="420" height="420" rx="24" class="muted"/>
+  <circle cx="980" cy="160" r="84" class="cyan"/>
+  <rect x="840" y="360" width="220" height="120" rx="12" class="coral"/>
+  <g transform="translate(120,110)">
+    <rect x="0" y="0" width="720" height="420" rx="12" fill="none" stroke="#e6eef7"/>
+  </g>
+
+  <!-- title block -->
+  <text x="96" y="230" class="title">The New Builder Playbook for AI First Development</text>
+  <text x="96" y="270" class="subtitle">How to push and thrive as one new builder</text>
+
+  <!-- accent bars -->
+  <rect x="96" y="300" width="280" height="8" rx="4" class="cyan"/>
+  <rect x="392" y="300" width="140" height="8" rx="4" class="coral"/>
+
+  <!-- bottom-left tag -->
+  <text x="24" y="606" class="tag">Beto Dias</text>
+</svg>

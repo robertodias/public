@@ -1,0 +1,6 @@
+cover.png	Cover: The New Builder Playbook for AI First Development — How to push and thrive as one new builder
+cover_notitle.png	Cover art without title overlay
+diagram_flow.png	Diagram: Model-powered IDEs → Agent Loop → Publishing & Measurement
+action_list.png	Checklist: Quick actions to prototype, test, and ship
+action_agent.png	Agent assisting a builder: code, tests, deploy
+action_endstate.png	End states: speed, quality, collaboration

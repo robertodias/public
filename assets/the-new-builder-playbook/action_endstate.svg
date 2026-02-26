@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      .bg{fill:#fbfbfb}
+      .navy{fill:#0b2545}
+      .cyan{fill:#00d3ff}
+      .coral{fill:#ff6f61}
+      .title{fill:#0b2545;font-family:Inter, Roboto, Arial, sans-serif;font-weight:700;font-size:34px}
+      .item{fill:#0b2545;font-family:Inter, Roboto, Arial, sans-serif;font-size:20px}
+      .tag{fill:rgba(11,37,69,0.6);font-family:Inter, Roboto, Arial, sans-serif;font-size:16px}
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%" rx="12"/>
+  <text x="96" y="96" class="title">End States</text>
+
+  <g transform="translate(96,140)">
+    <g>
+      <rect x="0" y="0" width="320" height="120" rx="12" fill="#00d3ff" opacity="0.08"/>
+      <text x="24" y="44" class="item">Speed</text>
+      <text x="24" y="76" font-size="14" fill="#0b2545">Faster experiments & shipping</text>
+    </g>
+    <g transform="translate(360,0)">
+      <rect x="0" y="0" width="320" height="120" rx="12" fill="#ff6f61" opacity="0.08"/>
+      <text x="24" y="44" class="item">Quality</text>
+      <text x="24" y="76" font-size="14" fill="#0b2545">More reliable outputs</text>
+    </g>
+    <g transform="translate(720,0)">
+      <rect x="0" y="0" width="320" height="120" rx="12" fill="#0b2545" opacity="0.06"/>
+      <text x="24" y="44" class="item">Collaboration</text>
+      <text x="24" y="76" font-size="14" fill="#0b2545">Shared context & workflows</text>
+    </g>
+  </g>
+
+  <text x="24" y="606" class="tag">Beto Dias</text>
+</svg>

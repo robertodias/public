@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <style>
+      .bg{fill:#fbfbfa}
+      .navy{fill:#0b2545;font-family:Inter, Roboto, Arial, sans-serif}
+      .cyan{fill:#00d3ff}
+      .coral{fill:#ff6f61}
+      .box{fill:#0b2545;opacity:0.06}
+      .label{fill:#0b2545;font-family:Inter, Roboto, Arial, sans-serif;font-weight:700;font-size:18px}
+      .tag{fill:rgba(11,37,69,0.6);font-family:Inter, Roboto, Arial, sans-serif;font-size:16px}
+      .small{font-size:14px;font-weight:600}
+      .arrow{stroke:#00d3ff;stroke-width:6;fill:none;marker-end:url(#arrowhead)}
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00d3ff" />
+    </marker>
+  </defs>
+  <rect class="bg" width="100%" height="100%" rx="12"/>
+
+  <!-- IDE box -->
+  <rect x="80" y="140" width="300" height="160" rx="12" class="box"/>
+  <text x="120" y="180" class="label">Model-powered IDEs</text>
+  <text x="120" y="208" class="small">Code suggestions · LLM code actions</text>
+
+  <!-- Agent loop -->
+  <rect x="460" y="80" width="280" height="240" rx="12" class="box"/>
+  <text x="500" y="140" class="label">Agent Loop</text>
+  <text x="500" y="168" class="small">Plan → Act → Observe</text>
+  <circle cx="600" cy="240" r="46" fill="#00d3ff" opacity="0.12"/>
+
+  <!-- Publishing -->
+  <rect x="820" y="140" width="300" height="160" rx="12" class="box"/>
+  <text x="860" y="180" class="label">Publishing & Measurement</text>
+  <text x="860" y="208" class="small">Metrics · A/B · Telemetry</text>
+
+  <!-- arrows -->
+  <path d="M380 220 L460 220" class="arrow" />
+  <path d="M740 220 L820 220" class="arrow" />
+
+  <!-- supporting icons -->
+  <rect x="120" y="340" width="120" height="80" rx="8" fill="#00d3ff" opacity="0.12"/>
+  <text x="140" y="387" class="small">Data</text>
+  <rect x="460" y="360" width="120" height="80" rx="8" fill="#ff6f61" opacity="0.12"/>
+  <text x="480" y="407" class="small">Tools</text>
+
+  <!-- bottom-left tag -->
+  <text x="24" y="780" class="tag">Beto Dias</text>
+</svg>

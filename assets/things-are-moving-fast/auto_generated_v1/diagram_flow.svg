@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#FBFBFB"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <!-- nodes -->
+    <rect x="80" y="140" width="220" height="120" rx="18" fill="#0B3D91" opacity="0.95"/>
+    <text x="190" y="210" fill="#FFF" font-size="20" font-weight="700" text-anchor="middle">Model</text>
+
+    <rect x="360" y="120" width="300" height="160" rx="18" fill="#FFFFFF" stroke="#E6E6E6"/>
+    <text x="510" y="200" fill="#0B3D91" font-size="20" font-weight="700" text-anchor="middle">Generative UI</text>
+
+    <rect x="700" y="140" width="240" height="120" rx="18" fill="#00E5FF" opacity="0.12"/>
+    <text x="820" y="210" fill="#0B3D91" font-size="18" font-weight="700" text-anchor="middle">MCP Host</text>
+
+    <rect x="980" y="120" width="160" height="160" rx="18" fill="#FF7A6B" opacity="0.10"/>
+    <text x="1060" y="200" fill="#0B3D91" font-size="16" font-weight="700" text-anchor="middle">MCP Apps</text>
+
+    <!-- arrows -->
+    <g stroke="#0B3D91" stroke-width="3" fill="none" marker-end="url(#arrow)">
+      <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+          <path d="M0,0 L10,5 L0,10 z" fill="#0B3D91"/>
+        </marker>
+      </defs>
+      <path d="M300,200 L360,200"/>
+      <path d="M660,200 L700,200"/>
+      <path d="M940,200 L980,200"/>
+    </g>
+
+    <!-- alternative A2UI agent path -->
+    <path d="M470,280 Q640,360 820,320" stroke="#00E5FF" stroke-width="4" fill="none" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+    <text x="640" y="360" fill="#0B3D91" font-size="14" font-weight="700" text-anchor="middle">A2UI / Agent</text>
+
+    <!-- small label bottom-left -->
+    <text x="28" y="772" font-size="14" fill="#000" opacity="0.6">Beto Dias</text>
+
+    <!-- designer label -->
+    <text x="920" y="772" font-size="12" fill="#0B3D91" opacity="0.12">Designer — Things Are Moving Fast v-auto</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#FAFAFA"/>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#0B3D91">
+    <text x="80" y="80" font-size="44" font-weight="700">Action Checklist</text>
+    <text x="80" y="120" font-size="20" font-weight="600">6 steps to move faster</text>
+
+    <!-- checklist box -->
+    <rect x="80" y="150" width="1040" height="420" rx="18" fill="#FFFFFF" stroke="#EDEDED"/>
+
+    <!-- items -->
+    <g font-size="20" font-weight="600" fill="#0B3D91">
+      <text x="130" y="210">1. Define model and intent</text>
+      <text x="130" y="260">2. Design Generative UI</text>
+      <text x="130" y="310">3. Implement MCP Host integration</text>
+      <text x="130" y="360">4. Build MCP Apps</text>
+      <text x="130" y="410">5. Instrument metrics & conversion</text>
+      <text x="130" y="460">6. Iterate with user feedback</text>
+    </g>
+
+    <!-- check circles -->
+    <g fill="#00E5FF">
+      <circle cx="1020" cy="205" r="14"/>
+      <circle cx="1020" cy="255" r="14"/>
+      <circle cx="1020" cy="305" r="14"/>
+      <circle cx="1020" cy="355" r="14"/>
+      <circle cx="1020" cy="405" r="14"/>
+      <circle cx="1020" cy="455" r="14"/>
+    </g>
+
+    <!-- bottom-left label -->
+    <text x="28" y="602" font-size="14" fill="#000" opacity="0.6">Beto Dias</text>
+    <text x="920" y="602" font-size="12" fill="#0B3D91" opacity="0.12">Designer — Things Are Moving Fast v-auto</text>
+  </g>
+</svg>
